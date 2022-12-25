@@ -1,0 +1,57 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/dimkerfo/fgofgjhjfkgkgkk-UI/main/FKFGJKLFGJGKJFGJFKJFHJH-UI-BY-DIM"))()
+local Window = Library.CreateLib("Monkey scripts by Dim", "Midnight")
+
+--MAIN 
+local Main = Window:NewTab("Menus")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("Best streamproof OP", "Make u cum niggxers", function()
+   
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dimkerfo/fgofgjhjfkgkgkk-UI/main/FHJAFHJAFGHAGEGEYHGEBHGJEHHEGHEWJFE"))()
+end)
+
+MainSection:NewToggle("cframe", "its SPEED U MONKEY", function(state)
+    if state then
+    game.Players.localPlayer.Character.Humanoid.WalkSpeed = 120
+    game.Players.localPlayer.Character.Humanoid.JumpPower = 120
+    else
+        game.Players.localPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.localPlayer.Character.Humanoid.JumpPower = 50
+    end
+end)
+MainSection:NewButton("anti lock v keybind", "for lockers", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dimkerfo/fgofgjhjfkgkgkk-UI/main/ANTI%20LOCKK%20NIGGA%20WDYMM"))()
+    end)
+
+    MainSection:NewButton("infiniteyield", " FE ADMIN MONKEYS", function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+        end)
+
+        MainSection:NewButton("resolver", "no", function()
+   
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/dimkerfo/fgofgjhjfkgkgkk-UI/main/FJAKFAJKGAHGJHJGJHEGHEGH%20ABTIU"))()
+            end)
+
+
+            --LOCAL PLAYER
+           
+            local PlayerSection = Main:NewSection("dots")
+
+        
+            PlayerSection:NewButton("MARKET OP Q KEYBIND", "ITS A MARKET NIGA", function()
+   
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/dimkerfo/fgofgjhjfkgkgkk-UI/main/FDJDFJDGJKLDGKDJKGSJGKSGK%20DOT"))()
+                end)
+
+ --LOCAL PLAYER
+           
+ local PlayerSection = Main:NewSection("Player")
+ PlayerSection:NewSlider("walkSpeed", "ok", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end) 
+
+
+ PlayerSection:NewSlider("JumpPower", "JUMP NIGGA WDYM", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.localPlayer.Character.Humanoid.JumpPower = s
+end) 
